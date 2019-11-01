@@ -1,0 +1,50 @@
+{
+  "name": "takielias/laravel-sse-extended",
+  "description": "Laravel package to provide Server Sent Events functionality for your app.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Taki Elias",
+      "email": "taki.elias@gmail.com",
+      "homepage": "https://github.com/takielias/laravel-sse-extended"
+    }
+  ],
+  "homepage": "https://github.com/takielias/laravel-sse-extended",
+  "keywords": [
+    "Laravel",
+    "SSE",
+    "Sever Sent Events",
+    "Server",
+    "Event",
+    "Realtime",
+    "Polling",
+    "Notifications"
+  ],
+  "require": {
+    "php": "^7.0",
+    "illuminate/support": "~6"
+  },
+  "autoload": {
+    "psr-4": {
+      "takielias\\SSE\\": "src/"
+    },
+    "files": [
+      "src/Helpers/helper.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "takielias\\SSE\\ServiceProvider"
+      ],
+      "aliases": {
+        "SSE": "takielias\\SSE\\Facades\\SSEFacade"
+      }
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable"
+}
