@@ -2,7 +2,7 @@
 
 Route::group(
     [
-        'namespace' => 'Sarfraznawaz2005\SSE\Http\Controllers',
+        'namespace' => 'takielias\SSE\Http\Controllers',
         'prefix' => 'sse'
     ],
     static function () {

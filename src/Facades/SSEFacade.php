@@ -1,6 +1,6 @@
 <?php
 
-namespace Sarfraznawaz2005\SSE\Facades;
+namespace takielias\SSE\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

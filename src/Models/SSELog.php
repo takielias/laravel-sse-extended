@@ -1,6 +1,6 @@
 <?php
 
-namespace Sarfraznawaz2005\SSE\Models;
+namespace takielias\SSE\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

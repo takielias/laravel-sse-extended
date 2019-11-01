@@ -1,6 +1,6 @@
 <?php
 
-namespace Sarfraznawaz2005\SSE;
+namespace takielias\SSE;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

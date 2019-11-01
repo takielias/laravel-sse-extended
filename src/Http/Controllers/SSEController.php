@@ -1,10 +1,10 @@
 <?php
 
-namespace Sarfraznawaz2005\SSE\Http\Controllers;
+namespace takielias\SSE\Http\Controllers;
 
 use DateTime;
 use Illuminate\Routing\Controller as BaseController;
-use Sarfraznawaz2005\SSE\Models\SSELog;
+use takielias\SSE\Models\SSELog;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class SSEController extends BaseController

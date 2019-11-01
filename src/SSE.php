@@ -1,8 +1,8 @@
 <?php
 
-namespace Sarfraznawaz2005\SSE;
+namespace takielias\SSE;
 
-use Sarfraznawaz2005\SSE\Models\SSELog;
+use takielias\SSE\Models\SSELog;
 
 class SSE
 {
