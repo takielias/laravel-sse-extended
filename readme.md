@@ -8,14 +8,14 @@ Laravel package to provide Server Sent Events functionality for your app. You ca
 ## Requirements
 
  - PHP >= 7
- - Laravel 5
+ - Laravel 5/6
 
 ## Installation
 
 Via Composer
 
 ``` bash
-$ composer require sarfraznawaz2005/laravel-sse
+$ composer require takielias/laravel-sse-extended
 ```
 
 For Laravel < 5.5:
