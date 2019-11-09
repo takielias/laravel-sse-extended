@@ -1,7 +1,7 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-# Laravel SSE
+# Laravel SSE Extended
 
 Laravel package to provide Server Sent Events functionality for your app. You can use this package to show instant notifications to your users without them having to refresh their pages.
 
