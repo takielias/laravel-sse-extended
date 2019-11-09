@@ -15,19 +15,19 @@ Laravel package to provide Server Sent Events functionality for your app. You ca
 Via Composer
 
 ``` bash
-$ composer require sarfraznawaz2005/laravel-sse
+$ composer require takielias/laravel-sse-extended
 ```
 
 For Laravel < 5.5:
 
 Add Service Provider to `config/app.php` in `providers` section
 ```php
-Sarfraznawaz2005\SSE\ServiceProvider::class,
+takielias\SSE\ServiceProvider::class,
 ```
 
 Add Facade to `config/app.php` in `aliases` section
 ```php
-'SSE' => Sarfraznawaz2005\SSE\Facades\SSEFacade::class,
+'SSE' => takielias\SSE\Facades\SSEFacade::class,
 ```
 
 
@@ -36,7 +36,7 @@ Add Facade to `config/app.php` in `aliases` section
 Publish package's config, migration and view files by running below command:
 
 ```bash
-$ php artisan vendor:publish --provider="Sarfraznawaz2005\SSE\ServiceProvider"
+$ php artisan vendor:publish --provider="takielias\SSE\ServiceProvider"
 ```
 Run `php artisan migrate` to create `sselogs` table.
 
@@ -63,7 +63,7 @@ SSEFacade::notify($message, $type = 'info', $event = 'message')
 To show popup notifications on the screen, in your controllers/event classes, you can  do:
 
 ```php
-use Sarfraznawaz2005\SSE\Facades\SSEFacade;
+use takielias\SSE\Facades\SSEFacade;
 
 public function myMethod()
 {
@@ -90,7 +90,7 @@ SSEFacade::notify($message, $type = 'info', $event = 'message')
 Notice `$event = 'message'`. You can customize this, let's say you want to use `UserLoggedIn` as SSE event type:
 
 ```php
-use Sarfraznawaz2005\SSE\Facades\SSEFacade;
+use takielias\SSE\Facades\SSEFacade;
 
 public function myMethod()
 {
@@ -123,16 +123,12 @@ es.addEventListener("UserLoggedIn", function (e) {
 ## Credits
 
 - [Sarfraz Ahmed][link-author]
-- [All Contributors][link-contributors]
 
 ## License
 
 Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/sarfraznawaz2005/laravel-sse.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/sarfraznawaz2005/laravel-sse.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/sarfraznawaz2005/laravel-sse
-[link-downloads]: https://packagist.org/packages/sarfraznawaz2005/laravel-sse
-[link-author]: https://github.com/sarfraznawaz2005
-[link-contributors]: https://github.com/sarfraznawaz2005/laravel-sse/graphs/contributors
+[link-packagist]: https://packagist.org/packages/takielias/laravel-sse-extended
+[link-downloads]: https://packagist.org/packages/takielias/laravel-sse-extended
+[link-author]: https://github.com/takielias
+[link-contributors]: https://github.com/takielias/laravel-sse-extended/graphs/contributors
