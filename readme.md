@@ -130,5 +130,5 @@ Please see the [license file](license.md) for more information.
 
 [link-packagist]: https://packagist.org/packages/takielias/laravel-sse-extended
 [link-downloads]: https://packagist.org/packages/takielias/laravel-sse-extended
-[link-author]: https://github.com/takielias
+[link-author]: https://github.com/sarfraznawaz2005
 [link-contributors]: https://github.com/takielias/laravel-sse-extended/graphs/contributors
