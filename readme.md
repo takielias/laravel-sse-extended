@@ -15,7 +15,7 @@ Laravel package to provide Server Sent Events functionality for your app. You ca
 Via Composer
 
 ``` bash
-$ composer require takielias/laravel-sse-extended
+$ composer require sarfraznawaz2005/laravel-sse
 ```
 
 For Laravel < 5.5:
@@ -122,13 +122,15 @@ es.addEventListener("UserLoggedIn", function (e) {
 
 ## Credits
 
-- [Sarfraz Ahmed][link-author]
+- [Taki Elias][link-author]
 
 ## License
 
 Please see the [license file](license.md) for more information.
 
+[ico-version]: https://img.shields.io/packagist/v/takielias/laravel-sse-extended.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/takielias/laravel-sse-extended.svg?style=flat-square
+
 [link-packagist]: https://packagist.org/packages/takielias/laravel-sse-extended
 [link-downloads]: https://packagist.org/packages/takielias/laravel-sse-extended
-[link-author]: https://github.com/sarfraznawaz2005
-[link-contributors]: https://github.com/takielias/laravel-sse-extended/graphs/contributors
+[link-author]: https://github.com/takielias
